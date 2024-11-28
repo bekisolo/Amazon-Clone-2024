@@ -1,18 +1,19 @@
 import React from "react";
-import { AiOutlineMenu } from "react-icons/ai";
-import classes from "./Header.module.css";
+import { MdOutlineMenu } from "react-icons/md";
+import classes from "./header.module.css";
 
 const LowerHeader = () => {
   return (
-    <div className={classes.lower_container}>
+    <div className={classes.lower__container}>
       <ul>
         <li>
-          <AiOutlineMenu />
+          {/* Menu icon and 'All' option  */}
+          <MdOutlineMenu />
           <p>All</p>
         </li>
-        <li>Todays Deals</li>
-        <li>Customer Service</li>
-        <li>Registry</li>
+        <li>Today's Service</li>
+        <li>Costumer Services</li>
+        <li>Registery</li>
         <li>Gift Cards</li>
         <li>Sell</li>
       </ul>

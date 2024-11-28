@@ -31,7 +31,7 @@ const Cart = () => {
   };
   return (
     <LayOut>
-      <sectio className={classes.container}>
+      <section className={classes.container}>
         <div className={classes.cart_container}>
           <h2>Hello</h2>
           <h3>Your shopping basket</h3>
@@ -83,7 +83,7 @@ const Cart = () => {
             <Link to="/payments">Continue to checkout</Link>
           </div>
         )}
-      </sectio>
+      </section>
     </LayOut>
   );
 };
